@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.hexcloud.cn/third-party/gosnmp"
+	"github.com/xiao9878/gosnmp"
 )
 
 func TestAPIConfigTypes(t *testing.T) {

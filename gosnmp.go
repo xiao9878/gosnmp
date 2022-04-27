@@ -83,7 +83,7 @@ type GoSNMP struct {
 	// MaxRepetitions sets the GETBULK max-repetitions used by BulkWalk*
 	// Unless MaxRepetitions is specified it will use defaultMaxRepetitions (50)
 	// This may cause issues with some devices, if so set MaxRepetitions lower.
-	// See comments in https://gitlab.hexcloud.cn/third-party/gosnmp/issues/100
+	// See comments in https://github.com/xiao9878/gosnmp/issues/100
 	MaxRepetitions uint8
 
 	// NonRepeaters sets the GETBULK max-repeaters used by BulkWalk*
